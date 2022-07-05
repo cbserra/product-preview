@@ -62,16 +62,6 @@ main {
   animation-delay: 150ms;
 }
 
-.product-image {
-}
-
-/* .product-text {
-  display: flex;
-  flex-direction: column;
-  padding-inline: 2.4rem;
-  justify-content: space-evenly;
-} */
-
 .product-text {
   display: flex;
   flex-direction: column;
@@ -128,6 +118,7 @@ button {
 
 button:hover {
   background-color: var(--deep-aquamarine-hover);
+  cursor: pointer;
 }
 
 button.fade-in {
